@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../pinescript"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/open"
+		}
+	],
+	"settings": {}
+}

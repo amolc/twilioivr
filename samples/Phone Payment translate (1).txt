@@ -1,0 +1,113 @@
+Thank you for calling Zion Shipping phone payment system
+
+
+To pay a Shipping, please press 1
+To pay Customs duties or Charge back, please press 2
+To pay and schedule a pickup, please press 3
+For Something please 4 *
+
+*** *** ***
+* For customs duties or Charge back, ask for the invoice ot tracking number
+* For Subscription, ask for account number
+* For Something else transfer to extemtion 1000
+
+**************************
+*** OPTION 1 (SHIPPING)***
+**************************
+
+- Please enter your shipment number follow by the pound key.
+- Please wait while we verify your shipment number 
+
+*** NOT VALIDE SHIPMENT ***
+This shipment number is not valide, please enter a valide number.
+
+*** VALIDE SHIPMENT ***
+This shipment is sent by (SHIPPER'S NAME) on (SHIPMENT DATE) and will deliver to (RECEIVER'S NAME).
+There is a total balance of (SHIPMENT AMOUNT DUE) to pay, would you like to process to your payment now?"
+Please press one to accept or two to cancel
+
+*** GATHER CARD INFORMATION ***
+
+*** PAYMENT FAIL ***
+Your transaction is not success, please wait while I am tranfering you to an Agent
+
+
+*** PAYMENT SUCCESS ***
+Your payment is completed successfuly. We have send you the confirmation to your phone and the invoice to your email.
+If you have any question please feel free to contact us back at any time. We appreciate your business. Good bye!
+
+
+
+****************************************
+*** OPTION 2 (CUSTOMS OR CHARGE BACK)***
+****************************************
+
+- Please enter your shipment or tracking number follow by the pound key.
+- Please wait while we verify your number 
+
+*** NOT VALIDE NUMBER ***
+This number is not valide, please enter a valide number.
+
+*** VALIDE NUMBER ***
+I see there is a total balance of (OTHER CHARGE) to pay, would you like to process to your payment now?"
+Please press one to accept or two to cancel
+
+*** GATHER CARD INFORMATION ***
+
+*** PAYMENT FAIL ***
+Your transaction is not success, please wait while I am tranfering you to an Agent
+
+
+*** PAYMENT SUCCESS ***
+Your payment is completed successfuly. We have send you the confirmation to your phone and the invoice to your email.
+If you have any question please feel free to contact us back at any time. We appreciate your business. Good bye!
+
+
+
+
+****************************************
+***** OPTION 3 (SCHEDULE A PICKUP)*****
+****************************************
+- Please enter your account or phone number follow by the pound key.
+- Please wait while we verify your account
+
+*** NOT VALIDE NUMBER ***
+This account or phone number is not valide, please enter a valide number.
+
+*** VALIDE NUMBER ***
+I see your pickup address is (FULL ADDRESS), would you like to schedule the pickup using this address?"
+Please press one to confirm or two if you need to schedule the pickup in a different address.
+
+*** IF PRESS 2 ***
+Please wait while I am tranfering you to an Agent to chedule your pickup for you.
+
+*** IF PRESS 1 ***
+Please provide your pickup date follow by the pound key.
+Please put 2 digit for the month, 2 digit for the day and 4 digit for the year. As an example: For (May twelve twenty twenty two), please type  (zero, five,,, one, two,,, two, zero, two, two)
+
+**** IF NOT CORRECT ****
+This input in not correct, please try again.
+*** After three attemps ***
+Please wait while I am tranfering you to an Agent to chedule your pickup for you.
+
+**** IF CORRECT ****
+Do you want your pickup to be schedule in the morning from Nine AM to twelve PM or in the afternoon from twelve PM to five PM?
+Please, press one for morning pickup OR two for afternon pickup.
+
+
+**** IF CORRECT ****
+There's a $20.00 fee for the pickup would you like to pay now?
+Please press one to confirm and press two to cancel.
+
+*** IF PRESS 2 ***
+Unfortunately we cannot schedule your pickup at this time. Please, call us back when you are ready to pay for the pickup.
+
+*** IF PRESS 1 ***
+*** GATHER CARD INFORMATION ***
+
+*** PAYMENT FAIL ***
+Your transaction is not success, please wait while I am tranfering you to an Agent
+
+*** PAYMENT SUCCESS ***
+Your pickup is completed successfuly. We have send you the pickup confirmation number to your phone and the invoice to your email.
+If you have any question please feel free to contact us back at any time. We appreciate your business. Good bye!

@@ -87,8 +87,8 @@ def start_english():
     return str(resp)
 
 
-@app.route("/start_spanish", methods=["GET", "POST"])
-def start_spanish():
+@app.route("/start_french", methods=["GET", "POST"])
+def start_french():
     """Respond to incoming phone calls with a menu of options"""
     # Start our TwiML response
     resp = VoiceResponse()
@@ -114,8 +114,8 @@ def start_spanish():
     return str(resp)
 
 
-@app.route("/start_french", methods=["GET", "POST"])
-def start_french():
+@app.route("/start_spanish", methods=["GET", "POST"])
+def start_spanish():
     """Respond to incoming phone calls with a menu of options"""
     # Start our TwiML response
     resp = VoiceResponse()

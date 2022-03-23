@@ -95,16 +95,18 @@ def start_spanish():
 
     # Start our <Gather> verb
     gather = Gather(timeout=5, num_digits=1, action="/selectoptions")
-    gather.say("Por favor, presione uno para el envío  , ,,,,,, ,,,,   ,,,,, ")
-    gather.pause(2)
     gather.say(
-        "Presione dos para derechos de aduana o devolución de cargo  , ,,,,,, ,,,,   ,,,,, "
+        "Pour payer une livraison, veuillez appuyer sur 1  , ,,,,,, ,,,,   ,,,,, "
     )
     gather.pause(2)
-    gather.say("¡Presione tres para programar una recolección y pagarla! ")
+    gather.say(
+        "Pour payer les droits de douane ou la rétrofacturation, veuillez appuyer sur 2  , ,,,,,, ,,,,   ,,,,, "
+    )
+    gather.pause(2)
+    gather.say("Pour payer et programmer un ramassage, veuillez appuyer sur 3 ")
     gather.pause(2)
     gather.say(
-        "Presione cuatro para conectarse con un representante del cliente  , ,,,,,, ,,,,   ,,,,, "
+        "Pour autre information s'il vous plaît appuyez sur quatre , ,,,,,, ,,,,   ,,,,, "
     )
     resp.pause()
     resp.append(gather)
@@ -120,17 +122,15 @@ def start_french():
 
     # Start our <Gather> verb
     gather = Gather(timeout=5, num_digits=1, action="/selectoptions")
-    gather.say("Veuillez appuyer sur un pour l'expédition  , ,,,,,, ,,,,   ,,,,, ")
+    gather.say("Para pagar un Envío, por favor presione 1, ,,,,,, ,,,,   ,,,,, ")
     gather.pause(2)
     gather.say(
-        "Veuillez appuyer sur deux pour les droits de douane ou la rétrofacturation  , ,,,,,, ,,,,   ,,,,, "
+        "Para pagar Derechos de aduana o contra cargo, presione 2, ,,,,,, ,,,,   ,,,,, "
     )
     gather.pause(2)
-    gather.say("Veuillez appuyer sur trois pour programmer un ramassage et le payer !")
+    gather.say("Para pagar y programar una recolección, presione 3")
     gather.pause(2)
-    gather.say(
-        "Veuillez appuyer sur quatre pour vous connecter avec un représentant du client  , ,,,,,, ,,,,   ,,,,, "
-    )
+    gather.say("Para otras informaciones por favor presione 4, ,,,,,, ,,,,   ,,,,, ")
     resp.pause()
     resp.append(gather)
     resp.redirect("/voice")
